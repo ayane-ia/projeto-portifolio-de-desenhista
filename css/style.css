@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.inicio-section {
+    width: 100%;
+    min-height: 300px;
+    background-image: url('../img/fundoinicio.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    min-height: 100vh;
+}
+
+.inicio-section .titulo-container {
+    width: 80%;
+   
+}
+
+.titulo-container h1 {
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.paragrafo-container {
+    width: 80%;
+   
+}
+
+.paragrafo-container p {
+    font-size: 26px;
+}
+
+.inicio-section .paragrafo-container a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(0, 153, 255);
+    transition: .4s ease-in-out;
+}
+
+.inicio-section .paragrafo-container a:hover {
+    background-color: rgb(5, 101, 165);
+}
+
+.sobre-min {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.habilidades-container {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.container-cards {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 300px;
+    position: relative;
+}
+
+.card h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.experiencia {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.container-fundo-vestical {
+    background-image: url('../img/fundo-vestical.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    min-height: 100vh;
+}
+
+.experiencia-container {
+    width: 80%;
+    min-height: 100vh;
+}
+
+.experiencia-container h3 {
+    font-size: 44px;
+    margin: 30px 9%;
+}
+
+.empresas {
+    width: 100%;
+}
+
+.card-empreasas {
+    width: 70%;
+    margin: 30px 9%;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-empreasas h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.border-2 {
+    border: 1px solid aqua;
+}
+.border-3 {
+    border: 1px solid rgb(255, 0, 157);
+}
