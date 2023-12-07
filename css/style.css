@@ -5,6 +5,18 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 .inicio-section {
     width: 100%;
     min-height: 300px;
@@ -106,7 +118,6 @@
     width: 100%;
     min-height: 300px;
     display: flex;
-    background-size: cover;
     color: rgb(0, 0, 0);
     min-height: 100vh;
 }
@@ -137,19 +148,208 @@
 .card-empreasas {
     width: 70%;
     margin: 30px 9%;
-    border: 1px solid blue;
+    border: 2px solid blue;
     border-radius: 10px;
     padding: 20px;
 }
 
 .card-empreasas h4 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
+.border-1 {
+    border: 2px solid blue;
+}
+
+.fonte-color-1 {
+    color: blue;
+}
+
+.fonte-color-2 {
+    color: aqua;
+}
+
+.fonte-color-3 {
+    color: rgb(255, 0, 157);
+}
+
 .border-2 {
-    border: 1px solid aqua;
+    border: 2px solid aqua;
 }
 .border-3 {
-    border: 1px solid rgb(255, 0, 157);
+    border: 2px solid rgb(255, 0, 157);
+}
+
+.Projetos-anteriores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.Projetos-anteriores h1 {
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.container-card-projetos-anteriores {
+    width: 95%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+}
+
+.projeto-cards-anteriores {
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.projeto-cards-anteriores .img-anteriores {
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.projeto-cards-anteriores h3 {
+    margin: 20px 0px;
+}
+
+.entreEmContato {
+    width: 100%;
+    padding: 50px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.entreEmContato p {
+    margin-top: 40px;
+    width: 89%;
+}
+
+.entreEmContato a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5%;
+    border-radius: 30px;
+    background-color: rgb(0, 153, 255);
+    transition: .4s ease-in-out;
+}
+
+.entreEmContato a:hover {
+    background-color: rgb(8, 113, 184);
+    transform: scale(1.1);
+}
+
+.entreEmContato-fundo {
+    width: 45%;
+}
+
+footer {
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .inicio-section {
+        padding: 10px;
+    }
+
+    
+    .titulo-container h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .paragrafo-container {
+        width: 80%;
+       
+    }
+    
+    .paragrafo-container p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .inicio-section .paragrafo-container a {
+        width: auto;
+  
+    }
+
+
+    .habilidades-container {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .container-cards {
+        flex-direction: column;
+    }
+    
+    .card h2 {
+        font-size: 20px;
+    }
+    
+    .card p {
+        font-size: 17px;
+    }
+    
+    .experiencia-container h3 {
+        font-size: 20px;
+    }
+    
+    
+    .card-empreasas h4 {
+        font-size: 20px;
+    }
+    
+   
+    .Projetos-anteriores { 
+        flex-direction: column;
+    }
+    
+    .Projetos-anteriores h1 {
+        font-size: 20px;
+    }
+    
+    .projeto-cards-anteriores {
+        min-width: 270px;
+        max-width: 270px;
+        min-height: 100px;
+        padding: 10px;
+    }
+    
+    .entreEmContato {
+        flex-direction: column;
+    }
+    
+    .entreEmContato p {
+        width: 100%;
+    }
+    
+    .entreEmContato a {
+        width: auto;
+    }
 }
